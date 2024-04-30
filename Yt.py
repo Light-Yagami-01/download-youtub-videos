@@ -1,4 +1,4 @@
-import pytube 
+from pytube import YouTube
 D_F ="/storage/emulated/Zender/files"
 url = input ('Enter url = ')
 
