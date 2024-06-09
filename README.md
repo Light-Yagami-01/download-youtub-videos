@@ -25,7 +25,7 @@ pip install -r requirements.txt
 4. Run the script with the following command:
 
 ```bash
-python3 download_youtube_video.py <video_url> <output_directory>
+python3 Yt.py <video_url> <output_directory>
 ```
 
 Replace `<video_url>` with the URL of the YouTube video you want to download and `<output_directory>` with the directory where you want to save the downloaded video.
