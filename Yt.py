@@ -1,18 +1,30 @@
 from pytube import YouTube
-D_F ="/storage/emulated/Zender/files"
-url = input ('Enter url = ')
 
-vid = pytube.YouTube(url)
+# Directory to save the downloaded files
+D_F = "/storage/emulated/Zender/files"
 
-vd_name=vid.title
-print(vd_name)
+# Input the URL of the YouTube video
+url = input('Enter URL: ')
 
-vd_qt=vid.streams.all()
-vd_lt= list(enumerate(vd_qt))
+# Create a YouTube object
+vid = YouTube(url)
+
+# Get the title of the video
+vd_name = vid.title
+print("Title:", vd_name)
+
+# Get all available video streams
+vd_qt = vid.streams.all()
+vd_lt = list(enumerate(vd_qt))
+
+# Print available video streams
+print("Available video streams:")
 for i in vd_lt:
-      print(i)
+    print(i)
 
-video=int(input ('Enter one of this number = '))
- 
-vd_qt[video].download()
-print('Successfull')
+# Choose the video quality to download
+video = int(input('Enter the number corresponding to the desired video quality: '))
+
+# Download the selected video stream
+vd_qt[video].download(output_path=D_F)
+print('Download successful')
