@@ -33,7 +33,7 @@ Replace `<video_url>` with the URL of the YouTube video you want to download and
 For example:
 
 ```bash
-python3 download_youtube_video.py https://www.youtube.com/watch?v=VIDEO_ID /path/to/save/videos
+python3 Yt.py https://www.youtube.com/watch?v=VIDEO_ID /path/to/save/videos
 ```
 
 ## Requirements
