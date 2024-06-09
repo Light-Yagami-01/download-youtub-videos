@@ -41,7 +41,3 @@ python3 download_youtube_video.py https://www.youtube.com/watch?v=VIDEO_ID /path
 - Python 3
 - Pytube
 ```
-
-Replace `yourusername` with your GitHub username in the clone URL.
-
-You can copy this entire content and save it in a README.md file in your GitHub repository. Users can then easily follow the instructions to download and use your YouTube video downloader script.
