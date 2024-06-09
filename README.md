@@ -1,3 +1,47 @@
+# YouTube Video Downloader
 
-*download youtube video 
+This script allows you to download YouTube videos using Pytube.
 
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/youtube-video-downloader.git
+```
+
+2. Navigate to the downloaded directory:
+
+```bash
+cd youtube-video-downloader
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the script with the following command:
+
+```bash
+python3 download_youtube_video.py <video_url> <output_directory>
+```
+
+Replace `<video_url>` with the URL of the YouTube video you want to download and `<output_directory>` with the directory where you want to save the downloaded video.
+
+For example:
+
+```bash
+python3 download_youtube_video.py https://www.youtube.com/watch?v=VIDEO_ID /path/to/save/videos
+```
+
+## Requirements
+
+- Python 3
+- Pytube
+```
+
+Replace `yourusername` with your GitHub username in the clone URL.
+
+You can copy this entire content and save it in a README.md file in your GitHub repository. Users can then easily follow the instructions to download and use your YouTube video downloader script.
